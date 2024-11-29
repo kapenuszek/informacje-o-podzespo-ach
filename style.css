@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .menu {
+    margin-top: 50px;
+  }
+  .menu a {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    width: 200px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  .menu a:hover {
+    background-color: #0056b3;
+  }
+
+header{
+width: 1220px;
+height: 70px;
+padding: 0 10%;
+background: rgba(255, 0, 4, 0.71);
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav a {
+    width: 69px;
+    height: 25px;
+    left: calc(50% - 69px/2 + 576.5px);
+top: 30px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: -0,5px;
+
+color:rgb(0, 0, 0)
+text-decoration: none;
+margin-right:200px ;
+}
+
+nav{
+margin-right: 100px;
+}
+
+.logo{
+color:green
+text-tranform: uppercase;
+font-weight: 700;
+
+}
+
+<!-- dzień 15.11.2024 -->
+
+        /* Podstawowe style */
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ff0000;
+            margin-top: 20px;
+        }
+
+        /* Kontener na całą sekcję */
+        .gallery-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* Układ siatki dla podzespołów */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* Styl dla każdego podzespołu */
+        .gallery-item {
+            background-color: #000;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .gallery-item h3 {
+            color: #0f0;
+            margin: 10px 0 5px;
+        }
+
+        .gallery-item p {
+            color: #00ffff;
+            margin: 5px 0;
+        }
+
+        .gallery-item .price {
+            color: #ff0;
+            font-weight: bold;
+        }
